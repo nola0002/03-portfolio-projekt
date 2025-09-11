@@ -1,0 +1,70 @@
+* {
+    outline-style: dotted;
+    outline-color: red;
+    outline-offset: -1px;
+}
+
+body {
+    font-family: "Spectral", serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+/*<editor-fold desc="Title">*/
+
+.title h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+.title h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+/*</editor-fold>*/
+
+/*<editor-fold desc="Om mig">*/
+
+.about-me {
+    display: flex;
+    width: 100vw;
+}
+
+img {
+    height: 30rem;
+    width: 25rem;
+    object-fit: cover;
+    border-radius: 4%;
+}
+
+.column {
+    float: right;
+    width: 25%;
+    text-align: justify;
+    margin-right: 10px;
+    justify-content: end;
+}
+
+.about-me:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*</editor-fold>*/
+
+
+/*<editor-fold desc="Arbejdserfaring">*/
+.work-experience {
+    display: flex;
+    justify-content: flex-end;
+}
+/*</editor-fold>*/
+
+
+
+
+
